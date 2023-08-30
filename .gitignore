@@ -69,4 +69,5 @@ Thumbs.db
 
 /android
 /www
-src/environments/*
+src/environments/environment.prod.ts
+src/environments/environment.ts
