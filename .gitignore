@@ -69,5 +69,7 @@ Thumbs.db
 
 /android
 /www
+bfg.jar
+git-filter-repo
 # src/environments/environment.prod.ts
 # src/environments/environment.ts
