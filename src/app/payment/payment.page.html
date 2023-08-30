@@ -1,0 +1,30 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>payment</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <form id="payment-form">
+    <div id="link-authentication-element">
+      <!--Stripe.js injects the Link Authentication Element-->
+    </div>
+    <div id="billing-address-element">
+      <!--Stripe.js injects the Link Authentication Element-->
+    </div>
+    <div id="payment-element">
+      <!--Stripe.js injects the Payment Element-->
+    </div>
+
+    <div id="payment-message" class="hidden"></div>
+  </form>
+
+  <ion-button
+    form="payment-form"
+    class="ion-margin-top"
+    expand="block"
+    id="submit"
+    (click)="submitPayment()"
+    >Pay now
+  </ion-button>
+</ion-content>
